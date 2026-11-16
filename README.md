@@ -19,19 +19,20 @@ Drawing on primary cross-sectional survey data from financially independent vehi
 
 ## Replication Instructions
 To replicate the exact tables, diagnostic metrics, and structural coefficients reported in the manuscript, follow these steps:
-1. Prerequisites
+
+**1**. Prerequisites
 Ensure you have Python 3.8 or higher installed. The script relies entirely on standard academic data science libraries.
 You can install the required dependencies using pip:
 ```bash
-pip install pandas numpy scipy statsmodels scikit-learn
+pip install pandas numpy scipy statsmodels scikit-learn```
 
-2. Execution
+**2**. Execution
 Place both Research_Analysis_Script.py and survey_data_anonymized.csv in the same working directory.
 Run the script via your terminal or IDE:
 Bash
 python insurance_adoption_analysis.py
 
-3. Output Mapping to Manuscript
+**3**. Output Mapping to Manuscript
 The script will output cleanly formatted console text that directly maps to the manuscript's findings:
 Demographic & Attitudinal Profiling: Replicates the exact frequencies and percentages for Table 2 (e.g., Gen Z, Millennials, EV adoption, PAYD telematics support).
 Harman's Single Factor Test: Confirms the absence of Common Method Bias (variance < 50%).
