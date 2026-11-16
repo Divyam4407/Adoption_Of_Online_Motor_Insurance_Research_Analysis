@@ -45,8 +45,8 @@ The script will output cleanly formatted console text that directly maps to the 
 * **Econometric Modelling:** Replicates Table 3. It outputs the Maximum Likelihood Logit summary, exact McFadden's Pseudo-R², Log-Likelihood metrics, Odds Ratios (OR), and the corroborating LPM HC3 summary.
 
 
-**Authors**
-Divyam Kumar - divyam0718@gmail.com
+**Authors:**
+Divyam Kumar - divyam0718@gmail.com ,
 Rimjhim Kumari - rimjhim98455@gmail.com 
 
 License & Declarations
