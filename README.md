@@ -20,29 +20,29 @@ Drawing on primary cross-sectional survey data from financially independent vehi
 ## Replication Instructions
 To replicate the exact tables, diagnostic metrics, and structural coefficients reported in the manuscript, follow these steps:
 
-****1**. Prerequisites
-**Ensure you have Python 3.8 or higher installed. The script relies entirely on standard academic data science libraries.
+**1**. **Prerequisites**
+Ensure you have Python 3.8 or higher installed. The script relies entirely on standard academic data science libraries.
 You can install the required dependencies using pip:
 ```bash
 pip install pandas numpy scipy statsmodels scikit-learn
 ```
 
-****2**. Execution
-**Place both Research_Analysis_Script.py and survey_data_anonymized.csv in the same working directory.
+**2**. **Execution**
+Place both Research_Analysis_Script.py and survey_data_anonymized.csv in the same working directory.
 Run the script via your terminal or IDE:
 ```bash
 python insurance_adoption_analysis.py
 ```
 
-****3**. Output Mapping to Manuscript
-**The script will output cleanly formatted console text that directly maps to the manuscript's findings:
-Demographic & Attitudinal Profiling: Replicates the exact frequencies and percentages for Table 2 (e.g., Gen Z, Millennials, EV adoption, PAYD telematics support).
-Harman's Single Factor Test: Confirms the absence of Common Method Bias (variance < 50%).
-Exploratory Factor Analysis: Displays PCA factor loadings.
-Psychometric Reliability: Replicates Table 1, calculating Cronbach's Alpha, Spearman-Brown coefficients, and Pearson inter-item correlations for all subscales.
-Multicollinearity Diagnostics: Confirms all Variance Inflation Factors (VIF) are strictly < 3.3.
-Bivariate Independence: Tests Ha1 using Pearson Chi-Square and Fisher's Exact tests.
-Econometric Modelling: Replicates Table 3. It outputs the Maximum Likelihood Logit summary, exact McFadden's Pseudo-R², Log-Likelihood metrics, Odds Ratios (OR), and the corroborating LPM HC3 summary.
+**3**. **Output Mapping to Manuscript**
+The script will output cleanly formatted console text that directly maps to the manuscript's findings:
+* **Demographic & Attitudinal Profiling:** Replicates the exact frequencies and percentages for Table 2 (e.g., Gen Z, Millennials, EV adoption, PAYD telematics support).
+* **Harman's Single Factor Test:** Confirms the absence of Common Method Bias (variance < 50%).
+* **Exploratory Factor Analysis:** Displays PCA factor loadings.
+* **Psychometric Reliability:** Replicates Table 1, calculating Cronbach's Alpha, Spearman-Brown coefficients, and Pearson inter-item correlations for all subscales.
+* **Multicollinearity Diagnostics:** Confirms all Variance Inflation Factors (VIF) are strictly < 3.3.
+* **Bivariate Independence:** Tests Ha1 using Pearson Chi-Square and Fisher's Exact tests.
+* **Econometric Modelling:** Replicates Table 3. It outputs the Maximum Likelihood Logit summary, exact McFadden's Pseudo-R², Log-Likelihood metrics, Odds Ratios (OR), and the corroborating LPM HC3 summary.
 
 
 **Authors**
@@ -50,6 +50,6 @@ Divyam Kumar - divyam0718@gmail.com
 Rimjhim Kumari - rimjhim98455@gmail.com 
 
 License & Declarations
-License: This code is released under the MIT License.
-Data Privacy: The dataset (survey_data_anonymized.csv) has been stripped of all personally identifiable information (PII) to preserve respondent anonymity in accordance with ethics guidelines.
-DOI: https://doi.org/10.5281/zenodo.24271443
+* License: This code is released under the MIT License.
+* Data Privacy: The dataset (survey_data_anonymized.csv) has been stripped of all personally identifiable information (PII) to preserve respondent anonymity in accordance with ethics guidelines.
+* DOI: https://doi.org/10.5281/zenodo.24271443
