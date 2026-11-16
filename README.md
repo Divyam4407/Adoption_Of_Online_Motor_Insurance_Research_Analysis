@@ -45,10 +45,11 @@ Econometric Modelling: Replicates Table 3. It outputs the Maximum Likelihood Log
 
 
 **Authors**
-Divyam Kumar (Corresponding Author) - divyam0718@gmail.com
+Divyam Kumar - divyam0718@gmail.com
 Md Hassan - mdhassanayub1998@gmail.com
 Suman Kumar - sumanbhu2006@gmail.com
 
 License & Declarations
 License: This code is released under the MIT License.
 Data Privacy: The dataset (survey_data_anonymized.csv) has been stripped of all personally identifiable information (PII) to preserve respondent anonymity in accordance with ethics guidelines.
+DOI: https://doi.org/10.5281/zenodo.24271443
