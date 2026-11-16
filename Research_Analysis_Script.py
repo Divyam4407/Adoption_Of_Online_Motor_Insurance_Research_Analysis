@@ -12,7 +12,7 @@ This script provides the end-to-end analytical pipeline for the study, including
 7. Bivariate Independence Tests (Chi-Square & Fisher's Exact)
 8. Econometric Modelling - Logit & LPM (Table 3)
 
-Author: Divyam Kumar, Md Hassan, Suman Kumar
+Author: Divyam Kumar, Rimjhim Kumari
 License: MIT
 """
 
